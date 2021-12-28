@@ -1,0 +1,139 @@
+html{
+	font-size: 62.5%;
+}
+
+body{
+	background-color: $info;
+}
+
+header{
+	h1{
+		color: $primary;
+		$textBig:2.5rem;
+		background-color:$info; 
+		font-family: 'Berkshire Swash', serif;
+		text-align: center;
+	}
+}
+
+section{
+	h1{
+		color: $primary;
+		$textBig:2.5rem;
+		background-color:$info; 
+		font-family: 'Berkshire Swash', serif;
+		padding: 10px;
+	}
+}
+
+section{
+	article{
+		img{
+			width: 450px;
+		}
+	}
+}
+
+.flex-container{
+	display: flex;
+	flex-wrap: wrap;
+	min-width: 300px;
+}
+
+section{
+	h2{
+		color: $primary;
+		font-family: 'Berkshire Swash', serif;
+
+	}
+	p{
+		line-height: 3rem;
+		color: $nav;
+		font-family: 'Cinzel', serif;
+		$textmedium: 2em;
+	}
+}
+
+#caja1{
+	width: 45%;
+	padding: 5px;
+	text-align: center;
+	margin-top: 15px;
+}
+
+#caja2{
+	width: 50%;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+
+div{
+	justify-content: space-around;
+	ul{
+		li{
+			list-style: none;
+			display: inline-block;
+			text-transform: uppercase;
+			text-align: center;
+			a{
+				color: $nav;
+				font-family: 'Cinzel', serif;
+				text-decoration: none;
+				$textMedium:2em;
+				&:hover{
+				color:$secondary;
+				}		  
+			}
+		}
+	}
+}
+
+.container{
+	padding: 10px;
+	border: solid 1px;
+	display: flex;
+	background-color: #FFFFFF;
+}
+
+.box{
+	padding: 6px 8px;
+	font-size: 2rem;
+	text-align: center;
+	clear: both;
+
+}
+
+.flex-wrap{
+	flex-wrap: nowrap;
+}
+
+section{
+	text-align: center;
+	img{
+		width: 450px;
+	}
+	ul{
+		li{
+			list-style: none;
+			a{
+				color: $nav;
+				font-family: 'Cinzel', serif;
+				$textBig: 3em;
+				text-decoration: none;
+				&:hover{
+					color:$secondary;
+				}
+			}
+		}
+	}
+}
+
+
+.card{
+	justify-content: space-around;
+	display: inline-block;
+	margin: 20px;
+	text-align: center;
+}
+

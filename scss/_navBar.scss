@@ -1,0 +1,30 @@
+nav{
+	display: $d-flex;
+	padding: 20px;
+
+	img{
+		width: 100px;
+	}
+	ul{
+		display: $d-flex;
+		justify-content: space-between;
+		li{
+			list-style: none;
+			text-transform: uppercase;
+			a{
+				color: $nav;
+				text-decoration: none;
+				font-family: 'Cinzel', serif;
+				font-size: 1.5rem;
+				&:hover{
+					color:$secondary;
+				}
+			}
+		}
+	}
+}
+
+.botonera{
+		color: $nav;
+		
+}

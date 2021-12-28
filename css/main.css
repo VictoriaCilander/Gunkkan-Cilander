@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&display=swap");
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  background-color: #1F2820; }
+
+header h1 {
+  color: #2F6B40;
+  background-color: #1F2820;
+  font-family: 'Berkshire Swash', serif;
+  text-align: center; }
+
+section h1 {
+  color: #2F6B40;
+  background-color: #1F2820;
+  font-family: 'Berkshire Swash', serif;
+  padding: 10px; }
+
+section article img {
+  width: 450px; }
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 300px; }
+
+section h2 {
+  color: #2F6B40;
+  font-family: 'Berkshire Swash', serif; }
+
+section p {
+  line-height: 3rem;
+  color: #FFFFFF;
+  font-family: 'Cinzel', serif; }
+
+#caja1 {
+  width: 45%;
+  padding: 5px;
+  text-align: center;
+  margin-top: 15px; }
+
+#caja2 {
+  width: 50%;
+  padding: 10px;
+  box-sizing: border-box; }
+
+div {
+  justify-content: space-around; }
+  div ul li {
+    list-style: none;
+    display: inline-block;
+    text-transform: uppercase;
+    text-align: center; }
+    div ul li a {
+      color: #FFFFFF;
+      font-family: 'Cinzel', serif;
+      text-decoration: none; }
+      div ul li a:hover {
+        color: #9B9999; }
+
+.container {
+  padding: 10px;
+  border: solid 1px;
+  display: flex;
+  background-color: #FFFFFF; }
+
+.box {
+  padding: 6px 8px;
+  font-size: 2rem;
+  text-align: center;
+  clear: both; }
+
+.flex-wrap {
+  flex-wrap: nowrap; }
+
+section {
+  text-align: center; }
+  section img {
+    width: 450px; }
+  section ul li {
+    list-style: none; }
+    section ul li a {
+      color: #FFFFFF;
+      font-family: 'Cinzel', serif;
+      text-decoration: none; }
+      section ul li a:hover {
+        color: #9B9999; }
+
+.card {
+  justify-content: space-around;
+  display: inline-block;
+  margin: 20px;
+  text-align: center; }
+
+footer {
+  background-color: #6E8F7E;
+  padding: 1em;
+  text-align: left; }
+  footer h3 {
+    font-size: 2em;
+    font-family: 'Berkshire Swash', serif;
+    color: black; }
+
+nav {
+  display: flex;
+  padding: 20px; }
+  nav img {
+    width: 100px; }
+  nav ul {
+    display: flex;
+    justify-content: space-between; }
+    nav ul li {
+      list-style: none;
+      text-transform: uppercase; }
+      nav ul li a {
+        color: #FFFFFF;
+        text-decoration: none;
+        font-family: 'Cinzel', serif;
+        font-size: 1.5rem; }
+        nav ul li a:hover {
+          color: #9B9999; }
+
+.botonera {
+  color: #FFFFFF; }
